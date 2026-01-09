@@ -144,7 +144,35 @@ It goes beyond simple prompt-response systems and demonstrates **AI orchestratio
 * Real-time AI assistants
 
 ---
+Problem statemet -1 
+1. API Data Retrieval and Storage
 
+The api.py file fetches book data from an external REST API in JSON format. The data includes book details such as title, author, and publication year.
+
+The retrieved data is stored locally in a SQLite database named database.book.db, which contains a books table for persistent storage.
+
+This setup demonstrates basic API integration, data processing, and database storage using Python.
+
+
+2. Data Processing and Visualization
+
+The data.py file fetches student test score data from an external API. After retrieving the data, it processes the dataset to calculate the average score for each student or subject.
+
+The processed data is then visualized using a bar chart, making it easy to compare scores and understand overall performance.
+
+This task demonstrates API data fetching, basic data processing, and data visualization using Python.
+
+3.CSV Data Import to a Database
+
+The csv_to_db.py script reads user data from a CSV file (user.csv) containing fields such as name and email.
+
+The script inserts this data into a SQLite database named user.db for persistent storage. The database contains a users table to store all records from the CSV file.
+
+This demonstrates reading CSV files, data insertion into a database, and basic Python database handling.
+
+4. Most Complex Python Code: chatbot_router.py – AI chatbot with FastAPI, LLM orchestration, and real-time tools.
+
+5. Most Complex Database Code: chatbot_router.py – MongoDB for session management and conversation history.
 ## 📄 License
 
 MIT License
