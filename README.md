@@ -159,11 +159,7 @@ The script inserts this data into a SQLite database named user.db for persistent
 
 This demonstrates reading CSV files, data insertion into a database, and basic Python database handling.
 
+
 ## 4. Most Complex Python Code: chatbot_router.py – AI chatbot with FastAPI, LLM orchestration, and real-time tools.
 
 ## 5. Most Complex Database Code: chatbot_router.py – MongoDB for session management and conversation history.
-
-
-
-Just tell me 👍
-```
